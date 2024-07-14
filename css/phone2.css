@@ -1,0 +1,44 @@
+@import "phone.css";
+
+.about_me{
+    flex-direction: column;
+}
+
+.center_blogs{
+    width: 100%;
+    font-size: 0.45em;
+}
+
+#skills{
+    width: 100%;
+}
+
+#portrait{
+    transition-duration: 0.2s;
+    width: 15em;
+}
+
+#abtme, #abtme h2{
+    margin-top: 0;
+}
+
+header{
+    font-size: 2.1em;
+}
+
+header h1{
+    transition-duration: 0.2s;
+    font-size: 0.7em;
+}
+
+aside{
+    font-size: 0.9em;
+}
+
+figure{
+    align-items: center;
+}
+
+figure figcaption{
+    width: 15em;
+}

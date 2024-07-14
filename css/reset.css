@@ -1,0 +1,9 @@
+body, header, hgroup, h1, h2, h3, h4, p, ul, li, section, article, figure, figcaption, a, nav, footer, table, div, aside{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+}

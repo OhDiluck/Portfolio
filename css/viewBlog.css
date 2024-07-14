@@ -1,0 +1,82 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(196, 196, 196);
+    color: white;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    grid-area: nav;
+    background-color: rgb(255, 63, 63);
+}
+
+nav a{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+    font-size: 1.3em;
+}
+
+nav a:hover{
+    transition-duration: 0.3s;
+    text-decoration:underline;
+    color: rgb(0, 255, 55);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 2em;
+}
+
+nav li{
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 2em;
+    color: black;
+}
+
+.center_blogs{
+    display:flex;
+    justify-content: center;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+}
+
+section{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 1.5em;
+    border-top: solid 6px rgb(0, 0, 0);
+}
+
+.date{
+    display: flex;
+    justify-content: right;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.blog_title{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.blog_description{
+    font-size: 0.9em;
+}

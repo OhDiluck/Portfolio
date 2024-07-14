@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(255, 63, 63);
+}
+
+nav a{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+    font-size: 1.3em;
+}
+
+nav a:hover{
+    transition-duration: 0.3s;
+    text-decoration:underline;
+    color: rgb(0, 255, 55);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 2em;
+}
+
+nav li{
+    margin: auto;
+}
+
+article{
+    margin: 7em;
+}
+
+article h1{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+article p{
+    border-top: solid 3px black;
+    padding: 0.5em 2em 2em 0;
+}

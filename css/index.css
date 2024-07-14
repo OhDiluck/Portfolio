@@ -1,0 +1,144 @@
+body, button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-size: 1.1em;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    font-size: 3em;
+    padding: 2em 4em 0 4em;
+    color: black;
+}
+
+nav{
+    grid-area: nav;
+    transition-duration: 0.2s;
+}
+
+nav, footer{
+    background-color: rgb(255, 63, 63);
+}
+
+nav a{
+    font-size: 1.3em;
+    transition-duration: 0.2s;
+}
+
+nav a:hover{
+    transition-duration: 0.3s;
+    text-decoration:underline;
+    color: rgb(0, 255, 55);
+}
+
+nav ul, footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 2em;
+}
+
+nav li, footer li{
+    margin: auto;
+}
+
+aside{
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 166, 0);
+    font-size: 1.5em;
+    border: transparent;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+
+    /* transition-duration: 0.2s;
+    transform: translateY(0.2em);
+    box-shadow: 0em 0em 0em 0em rgb(44, 44, 44); */
+}   
+
+button:hover{
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255,215,0);
+    border: transparent;
+    transition-duration: 0.1s;
+
+    /* transform: translateY(-0.2em);
+    box-shadow: 0em 0.3em 0em 0em rgb(44, 44, 44); */
+}
+
+footer{
+    grid-area: contacts;
+    padding: 0.4em, 0.4em, 0, 0.4em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    padding-top: 0.7em;
+    padding-bottom: 1em;;
+}
+
+footer ul li{
+    text-align: center;
+}
+
+footer h3{
+    font-size: 1.2em;
+    padding-top: 0.6em;
+    text-align: center;
+}
+
+footer img{
+    width: 3em;
+    transition-duration: 0.1s;
+}
+
+footer img:hover{
+    transition-duration: 0.1s;
+    transform: translateY(-0.5em);
+    border-radius: 1em;
+}
+
+.caption{
+    text-align: center;
+    width: 10em;
+    font-size: 0.8em;
+}
+
+p{
+    background-color: darkgreen;
+    color: white;
+    grid-area: log;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    font-size: 0.7em;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'nav        nav         nav         nav'
+    'log        log         log         log'
+    'header     header      header      header'
+    'aside      aside       aside       aside'
+    'contacts   contacts    contacts    contacts'
+}

@@ -1,0 +1,9 @@
+body{
+    font-size: 0.9em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
